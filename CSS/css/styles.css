@@ -1,0 +1,32 @@
+/*****************************tag selectors******************************/
+h1 {
+  color: red;
+  font-family: fantasy;
+  font-size: 80px;
+  font-style: oblique;
+  text-align: center;
+}
+
+img:hover {
+background-color: pink;
+
+}
+
+/***************************class selectors******************************/
+.bacon {
+  background-color: orange
+}
+
+.egg {
+  background-color: beige
+}
+
+.circular {
+  border-radius: 100%
+}
+/***************************id selectors******************************/
+#heading {
+color: Purple;
+
+}
+/***************************pseudoclass selectors******************************/

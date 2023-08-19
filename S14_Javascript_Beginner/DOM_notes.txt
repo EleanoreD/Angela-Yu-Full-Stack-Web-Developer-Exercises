@@ -1,0 +1,27 @@
+// The document is the head of the DOM
+
+//CanvasRenderingContext2D.colour() getter
+// car.numberOfDoors = 0; setter
+// the difference is assigning a value with an equals sign
+
+// method
+// car.drve(); make it do something a methos is something that an object can do so it has to be associated with an object
+
+// document.querySelector("li a").style.color = "red"; to change an element by DOM query selector this is changing the list item anchor tag too
+// Separation of Concerns
+// html for content, Css for styles and JS for behaviour
+// can tap into a class list using .classlist
+//can add classes to classlist using the add syntax for unique behaviour, this allows us to keep out style within css but activate them through JS
+// can do invisible, toggle etc through this process
+// text content property
+// document.querySelector("H1").innerHTML; returns the text and its properties
+// document.querySelector("H1").textContent; returns just the text string can add = and a string to change the html on the fly
+// document.querySelector("H1").innerHTML = "<em>Goodbye</em">; htm as to go in the quotes so it is a string otherwise the copiter will think it is a string
+
+///////////Manipuating the Attrbutes of Each element
+//Attributes are things like the class, href, inside the tag other than the tag itself are Attributes
+// Can get the list of attributes 
+//document.querySelector ("a").attributes;
+// can retrive the attribute by document.querySelector("a").getAttributes("href"); to return the link for example
+// document.querySelector("a").getAttributes("href"), "https://google.co.uk"; to get and set an attributes
+

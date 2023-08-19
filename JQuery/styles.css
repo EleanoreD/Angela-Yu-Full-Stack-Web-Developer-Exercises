@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(209, 202, 216);
+}
+
+.big-title{
+    font-size:10rem;
+    color: yellow;
+    font-family: cursive;
+}
+.margin-50{
+    margin: 50;
+}
+;
