@@ -1,3 +1,13 @@
+function studentMsg(totalScores, studentScore) {
+  const getAverage = totalScores.reduce((x, y) => x + y) / totalScores.length;
+  studentScore = getGrade();
+  if (studentScore === "F") {
+    return `Class average: ${getAverage}. Your grade: ${studentScore}. You failed the course.`;
+  } else {
+    return `Class average: ${getAverage}. Your grade: ${studentScore}. You passed the course.`;
+  }
+}
+console.log(studentMsg([92, 88, 12, 77, 57, 100, 67, 38, 97, 89], 37));
 /* Javascript Variables Exercise
 Given the existing code below, can you write some code so that their values are switched around?
 
